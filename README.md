@@ -114,7 +114,7 @@ Contributions to this project are welcome! If you have suggestions, bug reports,
 * Push your changes to your fork.
 * Submit a pull request.
 ## 📄 License
-Specify your license here, e.g., MIT License
+This project is open-source and available for educational use. Do not use for scraping or violating website terms.
 
 ## 🎉 Show Your Skills!
 This framework provides a solid foundation for demonstrating your expertise in:
