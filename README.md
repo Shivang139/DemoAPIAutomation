@@ -64,20 +64,20 @@ To run all tests using the TestNG plugin in Maven:
 ```bash
 mvn test
 ```
-Running Specific Test Suites or Tests
+### Running Specific Test Suites or Tests
 You can also run specific test suites or individual test classes/methods using TestNG configurations (e.g., testng.xml).
 ```
 Bash
 
 mvn test -Dsurefire.suiteXmlFiles=path/to/your/testng.xml
 ```
-Running Tests in IntelliJ IDEA or Eclipse
+### Running Tests in IntelliJ IDEA or Eclipse
 Most IDEs provide excellent integration with TestNG. You can typically right-click on a test class or method and choose "Run" to execute it.
 
-Running Tests on LambdaTest (If Configured)
+### Running Tests on LambdaTest (If Configured)
 If you have configured LambdaTest, your Maven configuration might be set up to automatically run tests on the LambdaTest grid. Consult your project's pom.xml and LambdaTest documentation for specific execution commands.
 
-📂 Project Structure (Example)
+## 📂 Project Structure (Example)
 ```
 DemoAPIAutomation/
 ├── src/
@@ -97,34 +97,34 @@ DemoAPIAutomation/
 └── ...
 ```
 
-🛠️ Technologies Used
-Java: The primary programming language.
-TestNG: A powerful testing framework for Java.
-REST Assured: A Java DSL for easy testing of RESTful services.
-JSONassert: For simplifying JSON response verification.
-Jackson/Gson: For JSON serialization and deserialization.
-Apache Maven: For project management and build automation.
-LambdaTest: A cloud-based testing platform (optional).
-Log4j/SLF4j: For logging (implementation might vary).
-🤝 Contributing
+## 🛠️ Technologies Used
+* **Java:** The primary programming language.
+* **TestNG:** A powerful testing framework for Java.
+* **REST Assured:** A Java DSL for easy testing of RESTful services.
+* **JSONassert:** For simplifying JSON response verification.
+* **Jackson/Gson:** For JSON serialization and deserialization.
+* **Apache Maven:** For project management and build automation.
+* **LambdaTest:** A cloud-based testing platform (optional).
+* **Log4j/SLF4j:** For logging (implementation might vary).
+## 🤝 Contributing
 Contributions to this project are welcome! If you have suggestions, bug reports, or would like to add new features, please feel free to:
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them.
-Push your changes to your fork.
-Submit a pull request.
-📄 License
+* Fork the repository.
+* Create a new branch for your feature or bug fix.
+* Make your changes and commit them.
+* Push your changes to your fork.
+* Submit a pull request.
+## 📄 License
 Specify your license here, e.g., MIT License
 
-🎉 Show Your Skills!
+## 🎉 Show Your Skills!
 This framework provides a solid foundation for demonstrating your expertise in:
 
-API Automation: Designing and implementing automated tests for RESTful APIs.
-Test Framework Design: Building a scalable and maintainable test automation framework.
-TestNG Proficiency: Utilizing the features of the TestNG framework effectively.
-JSON Validation: Implementing robust JSON schema and content validation.
-Parameterized Testing: Creating data-driven tests for increased test coverage.
-Cloud-Based Testing (with LambdaTest): Integrating and executing tests on a cloud platform.
-CI/CD Integration: Designing tests that can be seamlessly integrated into continuous integration pipelines.
-Java Development: Demonstrating your Java coding skills in a testing context.
+* **API Automation:** Designing and implementing automated tests for RESTful APIs.
+* **Test Framework Design:** Building a scalable and maintainable test automation framework.
+* **TestNG Proficiency:** Utilizing the features of the TestNG framework effectively.
+* **JSON Validation:** Implementing robust JSON schema and content validation.
+* **Parameterized Testing:** Creating data-driven tests for increased test coverage.
+* **Cloud-Based Testing (with LambdaTest):** Integrating and executing tests on a cloud platform.
+* **CI/CD Integration:** Designing tests that can be seamlessly integrated into continuous integration pipelines.
+* **Java Development:** Demonstrating your Java coding skills in a testing context.
