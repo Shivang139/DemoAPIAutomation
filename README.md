@@ -37,8 +37,7 @@ Follow these simple steps to get your local environment up and running and start
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/Shivang139/DemoAPIAutomation.git](https://github.com/Shivang139/DemoAPIAutomation.git)
-    cd DemoAPIAutomation
+    git clone https://github.com/Shivang139/DemoAPIAutomation.git
     ```
 
 2.  **Build the Project using Maven:**
