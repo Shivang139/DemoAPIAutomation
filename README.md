@@ -78,6 +78,7 @@ Running Tests on LambdaTest (If Configured)
 If you have configured LambdaTest, your Maven configuration might be set up to automatically run tests on the LambdaTest grid. Consult your project's pom.xml and LambdaTest documentation for specific execution commands.
 
 📂 Project Structure (Example)
+```
 DemoAPIAutomation/
 ├── src/
 │   ├── main/
@@ -94,7 +95,7 @@ DemoAPIAutomation/
 ├── pom.xml                         # Maven project configuration
 ├── README.md                       # This file
 └── ...
-
+```
 
 🛠️ Technologies Used
 Java: The primary programming language.
